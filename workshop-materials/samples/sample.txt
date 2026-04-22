@@ -1,0 +1,23 @@
+Memo interno — Programa de adopción de GitHub Copilot en EY
+
+Resumen ejecutivo
+La adopción de GitHub Copilot en el equipo piloto durante el primer trimestre de 2026 mostró una mejora del 28 por ciento en velocidad de entrega de tickets de complejidad baja y media, sin degradación medible de calidad en code reviews. Recomendamos extender el piloto al resto del área de Tecnología en Q2 2026, condicionado a un programa de capacitación obligatorio de dos sesiones por consultor.
+
+Contexto
+El piloto involucró a 12 consultores entre enero y marzo de 2026, distribuidos entre Servicios Financieros y Sector Público. Cada consultor recibió licencia Copilot Business y participó en una sesión inicial de dos horas. No se entregó capacitación adicional durante el piloto. El equipo de líderes técnicos hizo seguimiento semanal de uso y de calidad de entregables.
+
+Hallazgos principales
+Primero: la curva de aprendizaje fue más larga de lo esperado. Los consultores que sólo usaron el chat conversacional vieron mejoras marginales. Los que adoptaron prácticas de spec-driven development y custom instructions reportaron beneficios sustantivos a partir de la cuarta semana.
+
+Segundo: la calidad de los entregables se mantuvo o mejoró según métricas de bugs en post-deploy y observaciones en code review. Sin embargo, dos incidentes en el piloto se rastrearon a código generado sin revisión adecuada, ambos en archivos de configuración de infraestructura.
+
+Tercero: el costo por consultor (licencia más capacitación) se estima en 480 dólares trimestrales, contra un beneficio estimado de 6.200 dólares trimestrales por mejora de productividad. Retorno positivo desde el primer trimestre incluso considerando solo los efectos directos.
+
+Riesgos y mitigaciones
+El principal riesgo identificado es la degradación silenciosa de calidad en proyectos donde no se establezcan controles humanos en puntos clave del proceso. Mitigación propuesta: incluir en el programa de capacitación un módulo dedicado a quality gates y a code review sobre código generado por IA.
+
+Decisiones requeridas
+Se solicita aprobación del Comité de Tecnología para tres puntos. Uno: extender el programa a 80 consultores adicionales en Q2 2026. Dos: financiar el diseño y dictado de dos sesiones de capacitación obligatorias antes del despliegue. Tres: definir un equipo de tres personas dedicado a mantener la base de conocimiento interna sobre prácticas con Copilot.
+
+Próximos pasos
+Si el comité aprueba la extensión, el cronograma propuesto contempla diseño de capacitación durante abril, primer ciclo en mayo y despliegue completo en junio de 2026. Se entregará un informe de seguimiento al cierre de Q3 2026.
